@@ -4,11 +4,6 @@ const blogPostsFolder = './content/blog';
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  experimental: {
-    images: {
-      unoptimized: true,
-    },
-  },
   // basePath:'/open-austin-website-demo',
   webpack: (configuration, { isServer }) => {
     configuration.module.rules.push({
