@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply max-w-[1222px] px-3 lg:px-14 min-w-[320px];
+}
+
+.prose a {
+  @apply text-red-400 underline hover:text-red-500;
+}
+
+.btn {
+  @apply !text-white bg-red-500 py-3 px-5 font-bold rounded-xl no-underline hover:text-white hover:bg-red-600 inline-block;
+}
